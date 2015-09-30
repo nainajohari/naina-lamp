@@ -15,12 +15,13 @@ This module is to automate LAMP configuration
 ## Usage
 
 ### Default setup
-Create a manifest that has the following code:
+Create a manifest that has the following code [/etc/puppet/manifests/site.pp] :
 ```puppet
 Exec {
   path => ["/usr/bin", "/bin", "/usr/sbin", "/sbin", "/usr/local/bin", "/usr/local/sbin"]
 }
 
-include lamp
-
+node default {
+             include lamp
+            }
 ```

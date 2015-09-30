@@ -1,6 +1,14 @@
 # Naina puppet: LAMP #
+## Overview
+This module is to automate LAMP configuration on ubuntu-14.04,12.04
 
-This module is to automate LAMP configuration
+## Module Description
+A handy puppet module for managing LAMP configuration.
+Before you go ahead with this module, make sure that you have puppet master and agent installed on your host machines and agent contains a certificate signed by the puppet master.
+All you need to do is to get this module installed either from github or from puppetforge.
+
+Puppet version >=3.4.0 is recommended.
+
 
 ## Installation
 

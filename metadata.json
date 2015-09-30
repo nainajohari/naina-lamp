@@ -4,8 +4,8 @@
   "author": "naina johari",
   "summary": "This module is to automate lamp configuration",
   "license": "Apache 2.0",
-  "source": "/etc/puppet/modules/",
-  "project_page": null,
+  "source": "https://github.com/nainajohari/puppet-lamp",
+  "project_page": "https://github.com/nainajohari/puppet-lamp",
   "issues_url": null,
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}

@@ -23,5 +23,5 @@ Exec {
 
 node default {
              include lamp
-            }
+             }
 ```
